@@ -20,11 +20,14 @@ Come up with something to CRUD that has at least two properties. Don't get carri
 
 
 1. Create the schema and model for your thing that you are CRUDding. Commit. -- done
+
+
 1. Make sure you can concisely and precisely answer these questions: 
-    * What is a schema?  
-    * What is a model?  
-    * What is the difference?  
-    * What is the relationship between them?
+    * What is a schema?  -- BLUEPRINT.  structural design of our data.  as collection of db objects that are logically grouped together. we specify paths in a Schema, fields and properties
+    * What is a model?  -- actually lets us query the db.  how the data is stored and organized. (always use a capitalized singular noun)
+    * What is the difference?  --  
+    * What is the relationship between them? -- schema is a blueprint of the database.  a model is where the data will be organiaed, and the schema for a model is the set of sttributes and their corresponding domains. changing the schema changes the structure of the database.  changing the nature of the schema, means changing the data model.  
+    
 1. In the "create" route, use mongoose to add a document to your databse (`.create()`) based on what is in `req.body`. If you're having issues, check: is your `req.body` `undefined`? Where does `req.body` come from? Is there something you need to add to your app to make `req.body` be defined? (Yes, there is.) Commit.
 1. Make an "index" page which displays all the model instances created by the app so far. This should also have a link in the nav. Commit.
 1. The "create" route redirect to the index page _after_ the model has been created. Commit.
