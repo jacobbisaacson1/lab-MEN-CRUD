@@ -28,9 +28,9 @@ app.get('/new', (req, res) => {
 app.post('/', (req, res) => {
 	console.log('\nhere is req.body -- added by the body-parser');
 	console.log(req.body);
-
+	res.send('post route')
 	const create = {
-		
+
 	}
 })
 
