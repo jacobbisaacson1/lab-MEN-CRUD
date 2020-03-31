@@ -5,11 +5,12 @@ const app = express()
 // const methodOverride = require('method-override')
 
 app.get('/', (req, res) => {
-  res.render('home.ejs')
+  	res.render('home.ejs')
 })
 
-
-
+app.get('/new', (req, res) => {
+	res.render('new.ejs')	
+})
 
 
 
