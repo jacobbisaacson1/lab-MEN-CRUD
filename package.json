@@ -1,0 +1,21 @@
+{
+  "name": "lab-men-crud-pt-1-cr",
+  "version": "1.0.0",
+  "description": "crub lab",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.generalassemb.ly/jacobbisaacson/lab-MEN-CRUD-pt-1-CR.git"
+  },
+  "keywords": [
+    "crud"
+  ],
+  "author": "jacob",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
