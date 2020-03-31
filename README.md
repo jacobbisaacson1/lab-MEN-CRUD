@@ -8,8 +8,8 @@ Come up with something to CRUD that has at least two properties. Don't get carri
 
 1. Initialize a git repo. -- done
 1. Initialize a Node project. Make an initial commit. -- done
-1. Make an express app that runs. Commit. --
-1. Make a home page at `GET /` that has header and footer partials.  Commit. 
+1. Make an express app that runs. Commit. --done.
+1. Make a home page at `GET /` that has header and footer partials.  Commit. -- done
 1. Put a nav in the header partial.  Whenever it makes sense (if a certain page/section of the site is a spot a user might want to get to), add a link to the nav.  Commit. 
 1. Make it render a page for "new". There should be a link to this page in the nav. Commit.
 1. Make a "create" route. Commit.
